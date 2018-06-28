@@ -1,0 +1,41 @@
+<link rel="stylesheet" href="/assets/css/lib.css" />
+
+<body>
+  <div id = "wrapper">
+    <header id="header">
+      {%- if site.posts.size > 0 -%}
+        <h1 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h1>
+          <nav>
+            <ul class="post-list">
+              {%- for post in site.posts -%}
+              <li>
+                {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                <h2>
+                  <a class="post-link" href="{{ post.url | relative_url }}">
+                    {{ post.title | escape}}
+                  </a>
+                </h2>
+                {{post.content | truncatewords:25}}
+                <span class="post-meta">{{ post.date | date: date_format }}</span>
+                {%- if site.show_excerpts -%}
+                  {{ post.excerpt }}
+                {%- endif -%}
+              </li>
+              {%- endfor -%}
+            </ul>
+          </nav>
+      {%- endif -%}
+    </header>
+
+    <footer id="footer">
+      <p class="copyright">&copy; Kristopher Douglas McArthur. Design: <a href="https://html5up.net">HTML5 UP</a>. Jekyll integration: <a href="https://andrewbanchi.ch">Andrew Banchich</a>.</p>
+    </footer>
+  </div>
+
+  <div id="bg"></div>
+
+  <script src="http://localhost:4000/assets/js/jquery.min.js"></script>
+  <script src="http://localhost:4000/assets/js/skel.min.js"></script>
+  <script src="http://localhost:4000/assets/js/util.js"></script>
+  <script src="http://localhost:4000/assets/js/main.js"></script>
+</body>
