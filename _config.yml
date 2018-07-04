@@ -16,7 +16,7 @@
 title: Kristopher Douglas McArthur
 email: krismcarthur89@gmail.com
 description: Dedicated to developing innovative applications for a progressive and sustainable future.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "km_portfolio" # the subpath of your site, e.g. /blog
 url: "https://krismac89.github.io/km_portfolio/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
