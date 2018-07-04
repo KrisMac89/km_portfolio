@@ -23,7 +23,7 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
-theme: dimension_jekyll_theme
+theme:
 
 plugins:
       - jekyll-feed
