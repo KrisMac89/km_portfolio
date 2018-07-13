@@ -3,4 +3,26 @@ layout: plain
 title:  Blogs
 ---
 
-<a href="library.html">Blogs</a>
+{%- if site.posts.size > 0 -%}
+    <nav>
+      <ul class="post-list">
+        {%- for post in site.posts -%}
+        <li>
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          <h2>
+            <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape}}
+            </a>
+          </h2>
+          {{post.content | truncatewords:25}}
+          <br />
+          <span class="post-meta">{{ post.date | date: date_format }}</span>
+          {%- if site.show_excerpts -%}
+            {{ post.excerpt }}
+          {%- endif -%}
+        </li>
+        <br />
+        {%- endfor -%}
+      </ul>
+    </nav>
+{%- endif -%}
