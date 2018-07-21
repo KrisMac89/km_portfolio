@@ -1,3 +1,37 @@
-<link rel="stylesheet" href="/assets/css/post.css" />
-<h1>{{ page.title }}</h1>
-{{ content }}
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <link  href="{{ "/assets/css/post.css" | relative_url }}" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div id="wrapper">
+
+    	<!-- Header -->
+    		<header id="header">
+    			<div class="content">
+    				<div class="inner">
+              <p>
+                <h1>{{ page.title }}</h1>
+                {{ content }}
+              </p>
+            </div>
+          </div>
+        </header>
+        <footer id="footer">
+          <a href="{{ "index.html" | relative_url }}" >HOME</a>
+          <p class="copyright">&copy; {{ site.title }} | 2018
+            <!--
+            Design: <a href="https://html5up.net">HTML5 UP</a>. Jekyll integration: <a href="https://andrewbanchi.ch">Andrew Banchich</a>.</p>
+            -->
+          </p>
+        </footer>
+      </div>
+
+    <div id="bg"></div>
+    <script src="{{ "assets/js/jquery.min.js" | relative_url }}"></script>
+    <script src="{{ "assets/js/skel.min.js" | relative_url }}"></script>
+    <script src="{{ "assets/js/util.js" | relative_url }}"></script>
+    <script src="{{ "assets/js/main.js" | relative_url }}"></script>
+  </body>
+</html>
