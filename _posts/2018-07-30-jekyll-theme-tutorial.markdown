@@ -10,7 +10,7 @@ Jekyll is an agile static site generator designed to speed up the building proce
 Themes are varied; some may simply provide a background and alter how your posts and pages are displayed. Others may overhaul every aspect of a typical website down to the form tags you never intended to use. Jekyll sites come with the minima theme by default. You can begin perusing different themes by navigating to <a href="https://rubygems.org" target="\_blank">rubygems.org</a> and searching jekyll-theme.
 
 
-![rubygems.jpg](../../assets/images/rubygems.jpg){:class="img-responsive"}
+<img src="https://krismac89.github.io/km_portfolio/assets/images/rubygems.jpg">
 
 (Note: There are plenty of sites for jekyll themes, rubygems.org just happens to have lots of them and sorts by  most popular!)
 
@@ -22,19 +22,19 @@ Once you have selected your theme it's time to install it! Locate the name of yo
 
 <img src="https://krismac89.github.io/km_portfolio/assets/images/themename.jpg">
 
-![gemfile.jpg](/assets/images/gemfile.jpg){:class="img-responsive"}
+<img src="https://krismac89.github.io/km_portfolio/assets/images/gemfile.jpg">
 
 Now run this command in your command prompt in your site directory to install the theme:
 
-![bundleinstall.jpg](/assets/images/bundleinstall.jpg){:class="img-responsive"}
+<img src="https://krismac89.github.io/km_portfolio/assets/images/bundleinstall.jpg">
 
 Now we'll specify the theme in our config.yml file:
 
-![themeinyml.jpg](/assets/images/themeinyml.jpg){:class="img-responsive"}
+<img src="https://krismac89.github.io/km_portfolio/assets/images/themeinyml.jpg">
 
 Lastly, we run our Jekyll server and allow it to configure the theme:
 
-![bundleexec.jpg](/assets/images/bundleexec.jpg){:class="img-responsive"}
+<img src="https://krismac89.github.io/km_portfolio/assets/images/bundleexec.jpg">
 
 Now our site should start using our new Jekyll theme. The only issues we may run into are the default site's front matter. The minima theme has a post, page, and home layout. Many of the themes that you come across will have their own layouts or may simply have a default layout for the site. Make sure to edit your yml front matter on your pages and posts to reflect the layouts in your theme.
 
@@ -45,7 +45,7 @@ Themes are a fast way to build a clean website but there will be times when the 
 
 When your site uses a theme, it searches in your directory for referenced files like \_layouts and \_includes before searching the theme's directory. We can customize themes using this logic to our advantage by overriding theme files with our own. Discover your theme's file path on your PC by running this command, replacing the theme name accordingly:
 
-![showtheme.jpg](/assets/images/showtheme.jpg){:class="img-responsive"}
+<img src="https://krismac89.github.io/km_portfolio/assets/images/showtheme.jpg">
 
 Now you can install and customize gem-based themes for Jekyll to create fully styled blog sites very quickly!
-![jekyll.png](/assets/images/jekyll.png){:class="img-responsive"}
+<img src="https://krismac89.github.io/km_portfolio/assets/images/jekyll.png">
