@@ -1215,9 +1215,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 				-ms-transition-delay: 0.25s;
 				transition-delay: 0.25s;
 				padding: 3rem 2rem;
-				max-height: 75rem;
-				overflow: scroll;
-				overflow-x: hidden;
+				max-height: 100%;
+				max-width: 100%;
+				overflow: hidden;
 			}
 
 			#header .content .inner img{
