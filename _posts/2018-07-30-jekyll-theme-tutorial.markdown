@@ -10,7 +10,7 @@ Jekyll is an agile static site generator designed to speed up the building proce
 Themes are varied; some may simply provide a background and alter how your posts and pages are displayed. Others may overhaul every aspect of a typical website down to the form tags you never intended to use. Jekyll sites come with the minima theme by default. You can begin perusing different themes by navigating to <a href="https://rubygems.org" target="\_blank">rubygems.org</a> and searching jekyll-theme.
 
 
-![rubygems.jpg](/assets/images/rubygems.jpg){:class="img-responsive"}
+![rubygems.jpg](../../assets/images/rubygems.jpg){:class="img-responsive"}
 
 (Note: There are plenty of sites for jekyll themes, rubygems.org just happens to have lots of them and sorts by  most popular!)
 
@@ -20,7 +20,7 @@ Select any theme, choose Documentation from the Links section, and search for a 
 <h1>Installation</h1>
 Once you have selected your theme it's time to install it! Locate the name of your theme (top) which can be found on its GitHub repository and add it to your site's Gemfile (bottom):
 
-![themename.jpg](/assets/images/themename.jpg){:class="img-responsive"}
+<img src="https://krismac89.github.io/km_portfolio/assets/images/themename.jpg">
 
 ![gemfile.jpg](/assets/images/gemfile.jpg){:class="img-responsive"}
 
